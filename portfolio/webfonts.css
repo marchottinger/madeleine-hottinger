@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'MessinaSans';
+    src: url('webfonts/MessinaSans_Web_Bold/MessinaSansWeb-Bold.woff2') format('woff2'),
+         url('webfonts/MessinaSans_Web_Bold/MessinaSansWeb-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'MessinaSerif';
+    src: url('webfonts/MessinaSerif_Web_Bold/MessinaSerifWeb-Bold.woff2') format('woff2'),
+         url('webfonts/MessinaSerif_Web_Bold/MessinaSerifWeb-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}

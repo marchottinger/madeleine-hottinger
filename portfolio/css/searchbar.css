@@ -1,0 +1,123 @@
+/**
+ * searchbar - Display a Search Bar as a popup.
+ * @version v1.0.3
+ * @link https://github.com/ergopix-sarl/JS-Search-Bar
+ */
+.searchbar {
+	background-color:rgba(0,0,0,0.7);
+	opacity: 0;
+	transition: opacity .3s linear;
+	z-index:9999;
+}
+
+.searchbar--visible {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	display: block;
+	opacity: 1;
+}
+
+.search-table{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.search-table-cell{
+	display: table-cell;
+	height: 100%;
+	width: 100%;	
+	vertical-align: middle;
+}
+
+.searchbar__form {
+	width:90%;
+	max-width:1170px;
+	height:60px;
+	background:#fff;
+	margin: 0 auto;
+	box-shadow:0 2px 4px rgba(0,0,0,0.5);
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:row;
+	flex-direction:row;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	display: none;
+	transition: all .3s linear;
+	border-radius: 4px;
+}
+
+.searchbar--visible .searchbar__form {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+}
+
+.searchbar__field {
+	height:60px;
+	font-size:1.5em;
+	background:none;
+	border:0;
+	padding-left:15px;
+	color:#333;
+	margin-right:auto;
+	width:80%;
+}
+
+.searchbar__field::-ms-clear {
+	display:none;
+}
+
+.searchbar__field:focus {
+	outline:0;
+}
+
+.searchbar__button {
+	position:relative;
+	height: 60px;
+	width: 65px;
+	padding:0;
+	border:0;
+	background:none;
+	cursor: pointer;
+}
+
+.searchbar__button:focus {
+	outline:0;
+}
+
+.searchbar__button .far {
+	font-size:1.5em;
+	color:#000;
+	position: relative;
+	top:2px;
+}
+
+@media screen and (min-width: 768px) {
+	.searchbar__form {
+		height:96px;
+	}
+	
+	.searchbar__field {
+		padding-left:45px;
+		height:96px;
+		font-size:2em;
+	}
+	
+	.searchbar__button {
+		height: 95px;
+		width: 90px;
+	}
+	
+	.searchbar__button .far {
+		font-size:2em;
+	}
+}
