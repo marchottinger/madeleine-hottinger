@@ -1,4 +1,4 @@
-# madeleine-hottinger
+# https://www.madeleine-hottinger.com
 The website of artist Madeleine Hottinger
 
 This website presents the work of engraver Madeleine Hottinger.
