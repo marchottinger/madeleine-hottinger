@@ -1,5 +1,5 @@
-# https://www.madeleine-hottinger.com
-The website of artist Madeleine Hottinger
+# https://www.madeleine-hottinger.com/
+**The website of artist Madeleine Hottinger**
 
 This website presents the work of engraver Madeleine Hottinger.
 I developped image galleries as a main way browse the engravings. Each gallery presents the images in a viewer on the left side, with a zoom feature.
